@@ -1,0 +1,133 @@
+/* CheckDisease.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2d6a4f;
+  }
+  
+  .nav-links a {
+    margin-left: 1rem;
+    color: #4a4a4a;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: black;
+  }
+  
+  /* Content */
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .content {
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  /* Patient Details */
+  .patient-details {
+    background: #d4edda;
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex: 1;
+  }
+  
+  /* Predicted Disease */
+  .predicted-disease {
+    background: #e2e3e5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex: 1;
+    border: 2px solid #0056b3;
+  }
+  
+  /* Buttons */
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  
+  .back-btn {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-btn:hover {
+    background-color: #1e4d34;
+  }
+  
+  .add-btn {
+    background-color: #343a40;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #23272b;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #d4edda;
+    text-align: center;
+    padding: 1rem;
+    color: #4a4a4a;
+  }
+  
+  #searchButton{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  #inputSearch{
+    
+      width: 100%;
+      max-width: 300px;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    
+  }
+  #container{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  }

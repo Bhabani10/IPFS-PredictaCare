@@ -1,0 +1,41 @@
+.body-container {
+    background: url("../assets/background.jpg") no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+  }
+  
+  .body-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .body-container p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    max-width: 600px;
+  }
+  
+  .btn-group {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: #2d8c5e;
+    color: white;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #237049;
+  }
+  
